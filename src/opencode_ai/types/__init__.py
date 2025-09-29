@@ -71,3 +71,7 @@ from .session_messages_response import SessionMessagesResponse as SessionMessage
 from .session_summarize_response import SessionSummarizeResponse as SessionSummarizeResponse
 from .tui_append_prompt_response import TuiAppendPromptResponse as TuiAppendPromptResponse
 from .file_part_source_text_param import FilePartSourceTextParam as FilePartSourceTextParam
+from .project import Project as Project
+from .project_list_response import ProjectListResponse as ProjectListResponse
+from .tool_list_item import ToolListItem as ToolListItem
+
