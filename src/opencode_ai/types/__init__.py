@@ -73,5 +73,7 @@ from .tui_append_prompt_response import TuiAppendPromptResponse as TuiAppendProm
 from .file_part_source_text_param import FilePartSourceTextParam as FilePartSourceTextParam
 from .project import Project as Project
 from .project_list_response import ProjectListResponse as ProjectListResponse
+from .command import Command as Command
+from .command_list_response import CommandListResponse as CommandListResponse
 from .tool_list_item import ToolListItem as ToolListItem
 

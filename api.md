@@ -4,6 +4,31 @@
 from opencode_ai.types import MessageAbortedError, ProviderAuthError, UnknownError
 ```
 
+# Project
+
+Types:
+
+```python
+from opencode_ai.types import Project, ProjectListResponse
+```
+
+Methods:
+
+- <code title="get /project">client.project.<a href="./src/opencode_ai/resources/project.py">list</a>(\*\*<a href="src/opencode_ai/types/project_list_params.py">params</a>) -> <a href="./src/opencode_ai/types/project_list_response.py">ProjectListResponse</a></code>
+- <code title="get /project/current">client.project.<a href="./src/opencode_ai/resources/project.py">current</a>(\*\*<a href="src/opencode_ai/types/project_current_params.py">params</a>) -> <a href="./src/opencode_ai/types/project.py">Project</a></code>
+
+# Command
+
+Types:
+
+```python
+from opencode_ai.types import Command, CommandListResponse
+```
+
+Methods:
+
+- <code title="get /command">client.command.<a href="./src/opencode_ai/resources/command.py">list</a>(\*\*<a href="src/opencode_ai/types/command_list_params.py">params</a>) -> <a href="./src/opencode_ai/types/command_list_response.py">CommandListResponse</a></code>
+
 # Event
 
 Types:
